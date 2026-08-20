@@ -1,6 +1,6 @@
 # MNIST Generative-Model Experiments
 
-These notebooks are from the implementation part of my Generative Models course work. I used MNIST as a common dataset to implement and compare several types of generative models.
+These notebooks are from the implementation part of our Generative Models course work. We used MNIST as a common dataset to implement and compare several types of generative models.
 
 The notebooks are organized by model rather than assignment number:
 
@@ -10,4 +10,4 @@ The notebooks are organized by model rather than assignment number:
 - `NICE_GAN_EBM_Comparison.ipynb` — NICE, GAN, and EBM implementations with generation and sample-quality comparisons
 - `DDPM_Distillation.ipynb` — diffusion training, sampling, evaluation, and a distillation experiment
 
-I did not include the large checkpoint/log folders from the original Colab runs. The notebooks themselves keep the useful saved outputs from the experiments.
+The large checkpoint/log folders from the original Colab runs are not included. The notebooks themselves keep the useful saved outputs from the experiments.
