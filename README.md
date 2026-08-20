@@ -1,10 +1,10 @@
 # Generative Models
 
-This repository contains the main implementation and research work I completed for the Generative Models course at the University of Tehran.
+This repository contains the main implementation and research work completed for the Generative Models course at the University of Tehran.
 
-The implementation part uses MNIST as a common benchmark to work with different families of generative models, including autoregressive models, VAEs, normalizing flows, GANs, energy-based models, and diffusion models. I kept the notebooks with their original experiment outputs so the training behavior and comparisons can be reviewed directly.
+The implementation part uses MNIST as a common benchmark to work with different families of generative models, including autoregressive models, VAEs, normalizing flows, GANs, energy-based models, and diffusion models. The notebooks keep the original experiment outputs so the training behavior and comparisons can be reviewed directly.
 
-The research part was done with Shaghayegh Roozmeh. We screened recent papers from major ML conferences based on topic, code/data availability, and computational cost. After selecting **Generative Sliced MMD Flows with Riesz Kernels**, we followed its backward and forward citations and prepared a technical report on the line of work around it.
+The research part was completed by Hesam Afshar and Shaghayegh Roozmeh. We screened recent papers from major ML conferences based on topic, code/data availability, and computational cost. After selecting **Generative Sliced MMD Flows with Riesz Kernels**, we followed its backward and forward citations and prepared a technical report on the line of work around it.
 
 ## Repository structure
 
