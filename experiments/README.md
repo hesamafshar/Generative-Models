@@ -1,13 +1,13 @@
 # MNIST Generative-Model Experiments
 
-These notebooks are from the implementation part of our Generative Models course work. We used MNIST as a common dataset to implement and compare several types of generative models.
+These notebooks are from the implementation part of our Generative Models course work. We used MNIST as a common dataset and implemented different generative models so we could compare them in the same setting.
 
-The notebooks are organized by model rather than assignment number:
+The notebooks are named based on the models instead of the assignment numbers:
 
-- `Autoregressive_NADE_FVSBN.ipynb` — NADE and FVSBN autoregressive models
-- `VAE.ipynb` — VAE training, generation, latent-space visualization, and interpolation
-- `GMM_NADE_VAE_Comparison.ipynb` — GMM baseline with NADE/VAE training and comparison
-- `NICE_GAN_EBM_Comparison.ipynb` — NICE, GAN, and EBM implementations with generation and sample-quality comparisons
-- `DDPM_Distillation.ipynb` — diffusion training, sampling, evaluation, and a distillation experiment
+- `Autoregressive_NADE_FVSBN.ipynb` — NADE and FVSBN
+- `VAE.ipynb` — VAE
+- `GMM_NADE_VAE_Comparison.ipynb` — GMM, NADE, and VAE comparison
+- `NICE_GAN_EBM_Comparison.ipynb` — NICE, GAN, and EBM comparison
+- `DDPM_Distillation.ipynb` — diffusion model and distillation experiments
 
-The large checkpoint/log folders from the original Colab runs are not included. The notebooks themselves keep the useful saved outputs from the experiments.
+The large checkpoint and log folders from the original Colab runs are not included. The useful saved outputs are kept in the notebooks.
