@@ -1,20 +1,20 @@
 name: Unpack GM notebooks
 
 on:
-  push:
-    paths:
-      - 'trigger-unpack.txt'
+  issues:
+    types: [opened]
 
 permissions:
   contents: write
 
 jobs:
   unpack:
-    if: github.actor != 'github-actions[bot]'
+    if: github.event.issue.title == 'Run GM notebook import'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
       - name: Rebuild and unpack notebooks
         run: |
@@ -26,10 +26,8 @@ jobs:
           for i in range(9):
               text = Path(f'_upload/chunk{i:02d}.b64').read_text()
               if i == 0:
-                  # One character was dropped while transferring this temporary chunk.
                   text = text[:2284] + 'N' + text[2284:]
               if i == 5:
-                  # Ignore accidental trailing characters in this temporary chunk.
                   text = text[:9000]
               parts.append(text)
 
@@ -43,4 +41,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           git commit -m "Add generative model notebooks"
-          git push
+          git push origin main
