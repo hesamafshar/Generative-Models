@@ -16,10 +16,27 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Unpack notebooks
+      - name: Rebuild and unpack notebooks
         run: |
+          python - <<'PY'
+          from pathlib import Path
+          import base64
+
+          parts = []
+          for i in range(9):
+              text = Path(f'_upload/chunk{i:02d}.b64').read_text()
+              if i == 0:
+                  # One character was dropped while transferring this temporary chunk.
+                  text = text[:2284] + 'N' + text[2284:]
+              if i == 5:
+                  # Ignore accidental trailing characters in this temporary chunk.
+                  text = text[:9000]
+              parts.append(text)
+
+          archive = base64.b64decode(''.join(parts))
+          Path('/tmp/gm_notebooks.tar.gz').write_bytes(archive)
+          PY
           mkdir -p experiments
-          cat _upload/chunk*.b64 | base64 -d > /tmp/gm_notebooks.tar.gz
           tar -xzf /tmp/gm_notebooks.tar.gz -C experiments
           rm -rf _upload trigger-unpack.txt .github/workflows/unpack-notebooks.yml
           git config user.name "github-actions[bot]"
