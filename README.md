@@ -1,32 +1,23 @@
 # Generative Models
 
-This repository collects the main work I did for the Generative Models course at the University of Tehran.
+This repository contains the main implementation and research work I completed for the Generative Models course at the University of Tehran.
 
-The course work had two parts. In the first part, I implemented and compared several types of generative models on MNIST, including NADE, VAE, NICE, GAN, and two energy-based model settings. These experiments were useful for seeing the differences between autoregressive, latent-variable, flow-based, adversarial, and energy-based approaches on the same dataset.
+The implementation part uses MNIST as a common benchmark to work with different families of generative models, including autoregressive models, VAEs, normalizing flows, GANs, energy-based models, and diffusion models. I kept the notebooks with their original experiment outputs so the training behavior and comparisons can be reviewed directly.
 
-The second part was more research-oriented. Shaghayegh Roozmeh and I searched recent papers from ICLR, NeurIPS, and ICML, filtered them based on code/data availability and computational cost, and then followed backward and forward citations for the selected paper. We finally focused on **Generative Sliced MMD Flows with Riesz Kernels** and prepared a technical report on its background and later related work.
+The research part was done with Shaghayegh Roozmeh. We screened recent papers from major ML conferences based on topic, code/data availability, and computational cost. After selecting **Generative Sliced MMD Flows with Riesz Kernels**, we followed its backward and forward citations and prepared a technical report on the line of work around it.
 
 ## Repository structure
 
-- `research/Research_Report.md` -- a cleaned version of our course research report
-- `research/paper_screening.csv` -- the paper-screening table used during paper selection
-- `experiments/README.md` -- summary of the MNIST generative-model experiments
+- `experiments/` — implementation notebooks and model comparisons on MNIST
+- `research/Research_Report.md` — course research report
+- `research/paper_screening.csv` — paper-screening table used during topic and paper selection
 
-## MNIST experiments
+## Main experiment notebooks
 
-The experiment folders kept in my original course files include:
+- `Autoregressive_NADE_FVSBN.ipynb` — NADE and FVSBN autoregressive models
+- `VAE.ipynb` — variational autoencoder experiments
+- `GMM_NADE_VAE_Comparison.ipynb` — comparison of GMM, NADE, and VAE
+- `NICE_GAN_EBM_Comparison.ipynb` — NICE, GAN, and energy-based model experiments
+- `DDPM_Distillation.ipynb` — lightweight diffusion model, generation/evaluation, and distillation experiments
 
-- NADE
-- VAE
-- NICE
-- GAN
-- Energy-Based Model with learned mapping
-- Energy-Based Model with PCA
-
-The original Drive folders also contain training logs and checkpoints. I have not copied those large files here because they are not useful for reviewing the project. The repository is intended to keep the research material and source-level experiment files in a cleaner form.
-
-## Research part
-
-For paper selection, we first screened recent work in generative modeling and related bioinformatics areas. We considered whether the code and data were available and whether the experiments were realistic with limited computational resources. After selecting the MMD-flow paper, we traced the ideas leading to it and also reviewed later work that cited and extended it.
-
-This was a course project, so the goal was not to claim a new research contribution. The main value for me was learning the process of searching papers, narrowing a research direction, reading related work, and connecting that process to implementation work.
+The large checkpoint and log folders from the original Colab runs are not included here. The notebooks keep the code and useful saved outputs needed to review the experiments.
