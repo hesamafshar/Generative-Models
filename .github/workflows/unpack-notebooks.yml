@@ -19,7 +19,7 @@ jobs:
       - name: Unpack notebooks
         run: |
           mkdir -p experiments
-          base64 -d _upload/gm_notebooks.tar.gz.b64 > /tmp/gm_notebooks.tar.gz
+          cat _upload/chunk*.b64 | base64 -d > /tmp/gm_notebooks.tar.gz
           tar -xzf /tmp/gm_notebooks.tar.gz -C experiments
           rm -rf _upload trigger-unpack.txt .github/workflows/unpack-notebooks.yml
           git config user.name "github-actions[bot]"
