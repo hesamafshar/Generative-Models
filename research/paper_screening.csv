@@ -1,0 +1,125 @@
+Paper ID,Conference,Topic,Title,Data Available,Expensive Compute,Reproducible,Generative Model
+12543,ICLR 2025,"Genetics, cell biology, health",DEPfold: RNA Secondary Structure Prediction as Dependency Parsing.,Yes,Yes,No,No
+6651,ICLR 2025,"Genetics, cell biology, health","PhyloVAE: Unsupervised
+ Learning of Phylogenetic 
+Trees via Variational 
+Autoencoders",Yes,No,Yes,Yes
+13234,ICLR 2025,"Genetics, cell biology, health","Diffusion Generative 
+Modeling for Spatially 
+Resolved Gene Expression
+ Inference from Histology
+ Images",Yes,Yes,No,Yes
+13373,ICLR 2025,"Genetics, cell biology, health","Hyperbolic Genome 
+Embeddings
+",Yes,No,Yes,No
+11118,ICLR 2025,"Genetics, cell biology, health","Learning to engineer
+ protein flexibility ",Yes,No,Yes,Yes
+12644,ICLR 2025,"Genetics, cell biology, health","Learning to Discover Regulatory Elements 
+for Gene Expression Prediction",No,Yes,No,No
+8588,ICLR 2025,"Chemistery, Drug Discovery ","Hotspot-Driven Peptide Design via 
+Multi-Fragment Autoregressive Extension",Yes,Yes,No,Yes
+1318,ICLR 2025,GM,"Add-it: Training-Free
+ Object Insertion in
+ Images With Pretrained
+ Diffusion Models",No,No,No,Yes
+1466,ICLR 2025,GM,"Deep Incomplete Multi-view Learning
+ via Cyclic Permutation of VAEs",No,No,No,Yes
+4846,ICLR 2025,GM,"Not All Prompts Are Made
+ Equal: Prompt-based Pruning
+ of Text-to-Image Diffusion Models
+",Yes,Yes,No,Yes
+2687,ICLR 2025,GM,"Learning multi-modal generative
+ models with permutation-invariant
+ encoders and tighter variational objectives",No,No,No,Yes
+1080,ICLR 2025,GM,"Domain Guidance: A Simple Transfer
+ Approach for a Pre-trained Diffusion Model",No,No,No,Yes
+5898,ICLR 2025,GM,"TabDiff: a Mixed-type Diffusion 
+Model for Tabular Data Generation",Yes,No,Yes,Yes
+12491,ICLR 2025,GM,"CTSyn: A Foundation Model for Cross Tabular
+ Data Generation",No,Yes,No,Yes
+5773,ICLR 2025,GM,"Counterfactual Generative Modeling
+ with Variational Causal Inference
+",Yes,No,Yes,Yes
+4947,ICLR 2025,GM,"MLLMs Know Where to Look: 
+Training-free Perception of Small 
+Visual Details with Multimodal LLMs",Yes,No,Yes,Yes
+2642,ICLR 2024,GM,A Branching Decoder for Set Generation,Yes,Yes,No,Yes
+6287,ICLR 2024,GM,Robustness of AI-Image Detectors: Fundamental Limits and Practical Attacks ,Yes,No,Yes,Yes
+1940,ICLR 2024,GM,Navigating Text-To-Image Customization: From LyCORIS Fine-Tuning to Model Evaluation ,No,No,No,Yes
+2606,ICLR 2024,GM,Generative Sliced MMD Flows with Riesz Kernels ,Yes,No,Yes,Yes
+4289,ICLR 2024,GM,ControlVideo: Training-free Controllable Text-to-video Generation ,No,No,No,Yes
+2287,ICLR 2024,GM,Noise Map Guidance: Inversion with Spatial Context for Real Image Editing,No,No,Yes,Yes
+5967,ICLR 2024,GM,Conditional Variational Diffusion Models,Yes,No,Yes,Yes
+2785,ICLR 2024,GM,On the Stability of Iterative Retraining of Generative Models on their own Data ,Yes,No,Yes,Yes
+3634,ICLR 2024,GM,NoiseDiffusion: Correcting Noise for Image Interpolation with Diffusion Models beyond Spherical Linear Interpolation ,Yes,No,Yes,Yes
+3436,ICLR 2024,GM,"From Posterior Sampling to Meaningful Diversity in Image Restoration
+",Yes,No,Yes,Yes
+2598,ICLR 2024,GM,Pre-Training and Fine-Tuning Generative Flow Networks,Yes,No,No,Yes
+5851,ICLR 2024,GM,Lifting Architectural Constraints of Injective Flows,Yes,No,Yes,Yes
+807,ICLR 2024,GM,Neural Monge Map estimation and its applications ,Yes,No,Yes,Yes
+547,ICLR 2024,GM,Diffusion Posterior Sampling for Linear Inverse Problem Solving: A Filtering Perspective ,Yes,No,Yes,Yes
+6013,ICLR 2024,GM,Quality-Diversity through AI Feedback ,Yes,Yes,No,Yes
+1070,ICLR 2024,GM,Learning Energy-Based Models by Cooperative Diffusion Recovery Likelihood ,Yes,Yes,No,Yes
+5163,ICLR 2024,GM,Training Unbiased Diffusion Models From Biased Dataset ,Yes,Yes,No,Yes
+4764,ICLR 2024,GM,Solving Inverse Problems with Latent Diffusion Models via Hard Data Consistency ,Yes,No,Yes,Yes
+145,ICLR 2024,GM,GeoDiffusion: Text-Prompted Geometric Control for Object Detection Data Generation,Yes,Yes,No,Yes
+2518,ICLR 2024,GM,DiffEnc: Variational Diffusion with a Learned Encoder ,Yes,Yes,No,Yes
+7566,ICLR 2024,GM,HiGen: Hierarchical Graph Generative Networks ,Yes,No,Yes,Yes
+2579,ICLR 2024,GM,Cross-Modal Contextualized Diffusion Models for Text-Guided Visual Generation and Editing,No,No,No,Yes
+4864,ICLR 2024,GM,Label-Noise Robust Diffusion Models ,Yes,Yes,No,Yes
+3497,ICLR 2024,GM,JointNet: Extending Text-to-Image Diffusion for Dense Distribution Modeling,Yes,Yes,No,Yes
+6736,ICLR 2024,GM,BayesDiff: Estimating Pixel-wise Uncertainty in Diffusion via Bayesian Inference,Yes,No,Yes,Yes
+3483,ICLR 2024,GM,Learning Energy Decompositions for Partial Inference in GFlowNets,Yes,No,Yes,Yes
+4666,ICLR 2024,GM,Efficient Integrators for Diffusion Generative Models,Yes,No,No,Yes
+7379,ICLR 2024,GM,Denoising Task Routing for Diffusion Models,Yes,Yes,No,Yes
+5416,ICLR 2024,GM,Deep Generative Clustering with Multimodal Diffusion Variational Autoencoders,Yes,No,Yes,Yes
+308,ICLR 2024,GM,Localizing and Editing Knowledge In Text-to-Image Generative Models,No,No,No,Yes
+8130,ICLR 2024,GM,Likelihood Training of Cascaded Diffusion Models via Hierarchical Volume-preserving Maps,Yes,Yes,No,Yes
+3622,ICLR 2024,GM,Adversarial Supervision Makes Layout-to-Image Diffusion Models Thrive,Yes,Yes,No,Yes
+4208,ICLR 2024,GM,Würstchen: An Efficient Architecture for Large-Scale Text-to-Image Diffusion Models,Yes,Yes,No,Yes
+6250,ICLR 2024,"Genetics, cell biology, health",PhyloGFN: Phylogenetic inference with generative flow networks ,Yes,Yes,No,Yes
+3857,ICLR 2024,"Genetics, cell biology, health",DNABERT-2: Efficient Foundation Model and Benchmark For Multi-Species Genomes ,Yes,No,Yes,No
+3984,ICLR 2024,"Genetics, cell biology, health",CellPLM: Pre-training of Cell Language Model Beyond Single Cells ,Yes,No,Yes,No
+951,NeurIPS 2024,Generative Models - Diffusion Models,Adapting Diffusion Models for Improved Prompt Compliance and Controllable Image Synthesis,Yes,Yes,No,Yes
+10575,NeurIPS 2024,Generative Models - Diffusion Models,EDT: An Efficient Diffusion Transformer Framework Inspired by Human-like Sketching,Yes,Yes,No,Yes
+4606,NeurIPS 2024,Generative Models - Diffusion Models,An Expectation-Maximization Algorithm for Training Clean Diffusion Models from Corrupted Observations,Yes,No,Yes,Yes
+1999,NeurIPS 2024,Generative Models - Diffusion Models,GrounDiT: Grounding Diffusion Transformers via Noisy Patch Transplantation,Yes,No,Yes,Yes
+3423,NeurIPS 2024,Generative Models - Diffusion Models,Ctrl-X: Controlling Structure and Appearance for Text-To-Image Generation Without Guidance,Yes,No,Yes,Yes
+5142,NeurIPS 2024,Generative Models - Diffusion Models,Resfusion: Denoising Diffusion for Image Restoration Based on Prior Residual Noise,Yes,No,Yes,Yes
+8494,NeurIPS 2024,Generative Models - Diffusion Models,EM Distillation for One-step Diffusion Models,Yes,Yes,No,Yes
+4513,NeurIPS 2024,Generative Models - Diffusion Models,Taming Generative Diffusion Prior for Universal Blind Image Restoration (BIR-D),Yes,No,Yes,Yes
+13349,NeurIPS 2024,Generative Models - Diffusion Models,"Transfer Learning for Diffusion Models
+",Yes,No,Yes,Yes
+2570,NeurIPS 2024,Generative Models - Diffusion Models,Graph Diffusion Transformers for Multi-Conditional Molecular Generation (Graph DiT),Yes,No,Yes,Yes
+14669,NeurIPS 2024,Generative Models - Diffusion Models,GenWarp: Single Image to Novel Views with Semantic-Preserving Generative Warping,Yes,Yes,No,Yes
+3806,NeurIPS 2024,Generative Models - Diffusion Models,ROBIN: Robust and Invisible Watermarks for Diffusion Models,Yes,No,Yes,Yes
+8763,NeurIPS 2024,Generative Models ,"StrategyLLM: Large Language Models as Strategy Generators, Executors, Optimizers, and Evaluators for Problem Solving
+",Yes,No,Yes,Yes
+1704,NeurIPS 2024,Generative Models - Diffusion Models,Score-based Generative Models Are Provably Robust: An Uncertainty Quantification Perspective,No,No,Yes,Yes
+14353,NeurIPS 2024,Generative Models - Diffusion Models,Subject-driven Text-to-Image Generation via Preference-based Reinforcement Learning,Yes,No,Yes,Yes
+8158,ICML 2025,Generative Models and Autoencoders,Towards a Mechanistic Explanation of Diffusion Model Generalization,Yes,No,Yes,Yes
+3651,ICML 2025,Generative Models and Autoencoders,"Compressed Image Generation with Denoising Diffusion Codebook Models
+",Yes,No,Yes,Yes
+24,ICML 2025,Generative Models and Autoencoders,"How to Move Your Dragon: Text-to-Motion Synthesis for Large-Vocabulary Objects
+",Yes,No,Yes,Yes
+3792,ICML 2025,Generative Models and Autoencoders,"FlexTok: Resampling Images into 1D Token Sequences of Flexible Length
+",Yes,Yes,No,Yes
+866,ICML 2025,Generative Models and Autoencoders,"SongGen: A Single Stage Auto-regressive Transformer for Text-to-Song Generation
+",Yes,No,Yes,Yes
+2932,ICML 2025,Generative Models and Autoencoders,"Stochastic Forward–Backward Deconvolution: Training Diffusion Models with Finite Noisy Datasets
+",Yes,No,Yes,Yes
+16266,ICML 2025,Generative Models and Autoencoders,"Symmetry-Aware GFlowNets
+",Yes,No,Yes,Yes
+6550,ICML 2025,Generative Models and Autoencoders,"EQ-VAE: Equivariance Regularized Latent Space for Improved Generative Image Modeling
+",Yes,Yes,No,Yes
+200,ICML 2025,Generative Models and Autoencoders,"Ultra-Resolution Adaptation with Ease
+",Yes,Yes,No,Yes
+1337,ICML 2025,Generative Models and Autoencoders,"Efficient Generative Modeling with Residual Vector Quantization-Based Tokens
+",Yes,Yes,No,Yes
+5229,ICML 2025,Generative Models and Autoencoders,Improving the Diffusability of Autoencoders,Yes,No,Yes,Yes
+9162,ICML 2025,Generative Models and Autoencoders,"Learning Monotonic Probabilities with a Generative Cost Model
+",Yes,No,Yes,Yes
+847,ICML 2025,Generative Models and Autoencoders,"Gaussian Mixture Flow Matching Models
+",Yes,Yes,No,Yes
+9910,ICML 2025,Generative Models and Autoencoders,"Tractable Transformers for Flexible Conditional Generation
+",Yes,Yes,No,Yes
