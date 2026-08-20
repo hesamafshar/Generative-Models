@@ -1,0 +1,17 @@
+# Model outputs
+checkpoints/
+logs/
+runs/
+*.pt
+*.pth
+*.ckpt
+
+# Notebook/cache files
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Local environments and OS files
+.env
+.venv/
+.DS_Store
