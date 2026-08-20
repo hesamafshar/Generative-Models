@@ -1,23 +1,23 @@
 # Generative Models
 
-This repository contains the main implementation and research work completed for the Generative Models course at the University of Tehran.
+This repository collects the main work from our Generative Models course at the University of Tehran.
 
-The implementation part uses MNIST as a common benchmark to work with different families of generative models, including autoregressive models, VAEs, normalizing flows, GANs, energy-based models, and diffusion models. The notebooks keep the original experiment outputs so the training behavior and comparisons can be reviewed directly.
+The course work had two parts. In the first part, we implemented and compared several types of generative models on MNIST, including autoregressive models, VAE, NICE, GAN, energy-based models, and diffusion models. Using the same dataset made it easier to compare how the different approaches behave in practice.
 
-The research part was completed by Hesam Afshar and Shaghayegh Roozmeh. We screened recent papers from major ML conferences based on topic, code/data availability, and computational cost. After selecting **Generative Sliced MMD Flows with Riesz Kernels**, we followed its backward and forward citations and prepared a technical report on the line of work around it.
+The second part was more research-oriented. We searched recent papers from ICLR, NeurIPS, and ICML, narrowed them based on code/data availability and computational cost, and then followed backward and forward citations for the selected paper. We finally focused on **Generative Sliced MMD Flows with Riesz Kernels** and prepared a technical report on the related work around it.
 
 ## Repository structure
 
 - `experiments/` — implementation notebooks and model comparisons on MNIST
-- `research/Research_Report.md` — course research report
-- `research/paper_screening.csv` — paper-screening table used during topic and paper selection
+- `research/Research_Report.md` — our course research report
+- `research/paper_screening.csv` — the paper-screening table used during paper selection
 
-## Main experiment notebooks
+## Experiment notebooks
 
-- `Autoregressive_NADE_FVSBN.ipynb` — NADE and FVSBN autoregressive models
-- `VAE.ipynb` — variational autoencoder experiments
-- `GMM_NADE_VAE_Comparison.ipynb` — comparison of GMM, NADE, and VAE
-- `NICE_GAN_EBM_Comparison.ipynb` — NICE, GAN, and energy-based model experiments
-- `DDPM_Distillation.ipynb` — lightweight diffusion model, generation/evaluation, and distillation experiments
+- `Autoregressive_NADE_FVSBN.ipynb` — NADE and FVSBN
+- `VAE.ipynb` — VAE
+- `GMM_NADE_VAE_Comparison.ipynb` — GMM, NADE, and VAE comparison
+- `NICE_GAN_EBM_Comparison.ipynb` — NICE, GAN, and EBM comparison
+- `DDPM_Distillation.ipynb` — diffusion model and distillation experiments
 
-The large checkpoint and log folders from the original Colab runs are not included here. The notebooks keep the code and useful saved outputs needed to review the experiments.
+The large checkpoint and log folders from the original Colab runs are not included here. The notebooks keep the code and the useful saved outputs from the experiments.
