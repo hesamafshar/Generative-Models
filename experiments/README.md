@@ -1,16 +1,13 @@
-# MNIST Experiments
+# MNIST Generative-Model Experiments
 
-As part of the course assignments, I worked with several families of generative models on MNIST so that I could compare them in a common setting instead of looking at each model only in theory.
+These notebooks are from the implementation part of my Generative Models course work. I used MNIST as a common dataset to implement and compare several types of generative models.
 
-The experiment folders in my original course archive are:
+The notebooks are organized by model rather than assignment number:
 
-- **NADE** -- autoregressive density estimation
-- **VAE** -- latent-variable generative modeling
-- **NICE** -- normalizing flows
-- **GAN** -- adversarial generative modeling
-- **EBM with learned mapping** -- energy-based modeling with a learned representation/mapping
-- **EBM with PCA** -- energy-based modeling with PCA-based dimensionality reduction
+- `Autoregressive_NADE_FVSBN.ipynb` — NADE and FVSBN autoregressive models
+- `VAE.ipynb` — VAE training, generation, latent-space visualization, and interpolation
+- `GMM_NADE_VAE_Comparison.ipynb` — GMM baseline with NADE/VAE training and comparison
+- `NICE_GAN_EBM_Comparison.ipynb` — NICE, GAN, and EBM implementations with generation and sample-quality comparisons
+- `DDPM_Distillation.ipynb` — diffusion training, sampling, evaluation, and a distillation experiment
 
-The original Drive archive currently contains training logs, checkpoints, and generated outputs for these runs. I have not copied the large checkpoint/log directories to GitHub because they are not useful for reviewing the work and would make the repository unnecessarily heavy.
-
-The source notebooks/scripts from these assignments were not present in the experiment folders I found in Drive. If I recover the original source files, they should be added here rather than uploading the checkpoint folders.
+I did not include the large checkpoint/log folders from the original Colab runs. The notebooks themselves keep the useful saved outputs from the experiments.
