@@ -1,0 +1,29 @@
+name: Unpack GM notebooks
+
+on:
+  push:
+    paths:
+      - 'trigger-unpack.txt'
+
+permissions:
+  contents: write
+
+jobs:
+  unpack:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Unpack notebooks
+        run: |
+          mkdir -p experiments
+          base64 -d _upload/gm_notebooks.tar.gz.b64 > /tmp/gm_notebooks.tar.gz
+          tar -xzf /tmp/gm_notebooks.tar.gz -C experiments
+          rm -rf _upload trigger-unpack.txt .github/workflows/unpack-notebooks.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Add generative model notebooks"
+          git push
